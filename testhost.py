@@ -9,3 +9,5 @@ async def test(ctx, arg):
     await ctx.send(arg)
 
 token = os.environ.get('BOT_TOKEN')
+
+bat.run (str(token))
